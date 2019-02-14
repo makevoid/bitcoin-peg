@@ -1,5 +1,5 @@
 {
-  "name": "bitcoin-peg",
+  "name": "bitcoin-peg-mainnet-makevoid",
   "version": "1.4.4",
   "description": "Cosmos Bitcoin peg zone module for Lotion/Coins",
   "main": "index.js",
