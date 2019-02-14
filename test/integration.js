@@ -14,7 +14,7 @@ const coins = require('coins')
 const peg = require('..')
 
 // TODO: don't monkey patch, let us pass in regtest params to webcoin
-const params = require('webcoin-bitcoin-testnet').net
+const params = require('webcoin-bitcoin').net
 params.dnsSeeds = []
 params.webSeeds = []
 params.staticPeers = [ 'localhost' ]

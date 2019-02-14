@@ -161,7 +161,7 @@ function createOutput (validators, signatoryKeys) {
 
   return payments.p2wsh({
     redeem: { output: p2ss },
-    network: networks.testnet // TODO
+    network: networks.mainnet // TODO
   }).output
 }
 

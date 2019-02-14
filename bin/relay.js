@@ -2,7 +2,7 @@
 
 let { PeerGroup } = require('bitcoin-net')
 let Inventory = require('bitcoin-inventory')
-let params = require('webcoin-bitcoin-testnet')
+let params = require('webcoin-bitcoin')
 let connect = require('lotion-connect')
 let {
   relayDeposits,
